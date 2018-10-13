@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
-    "build": "jest --coverage"
+    "build": "jest --coverage --report-dir ./test_public"
   },
   "repository": "https://sagaratoonn@github.com/sagaratoonn/sample-node.git",
   "license": "MIT",
@@ -12,6 +12,16 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
+    "jest-html-reporter": "^2.4.2",
     "serve": "^10.0.2"
+  },
+  "jest": {
+      "reporters": [
+          "default",
+                  ["./node_modules/jest-html-reporter", {
+                      "pageTitle": "Test Report",
+                      "outputPath": "./test_public/report.html"
+                  }]
+      ]
   }
 }
