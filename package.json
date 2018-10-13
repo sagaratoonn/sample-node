@@ -1,0 +1,13 @@
+{
+  "name": "sample-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "jest --coverage"
+  },
+  "repository": "https://sagaratoonn@github.com/sagaratoonn/sample-node.git",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

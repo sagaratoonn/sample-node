@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/takahiro/.nodebrew/node/v10.0.0/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/takahiro/Downloads/google-cloud-sdk/bin:/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin:/Users/takahiro/.mos/bin:/Users/takahiro/.nodebrew/current/bin:/Users/takahiro/.pyenv/shims:/Users/takahiro/Downloads/google-cloud-sdk/bin:/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin:/Users/takahiro/.mos/bin:/Users/takahiro/.nodebrew/current/bin:/Users/takahiro/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/takahiro:/Users/takahiro/.mos/bin:/Users/takahiro/Library/Android/sdk/tools:/Users/takahiro/Library/Android/sdk/platform-tools:/Users/takahiro/.mos/bin:/Users/takahiro/Library/Android/sdk/tools:/Users/takahiro/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:128791:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:778:16)
+      at ReadStream.onkeypress (readline.js:163:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1014:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:280:12)
