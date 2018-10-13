@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "serve",
     "build": "jest --coverage"
-    "start": "jest --coverage"
   },
   "repository": "https://sagaratoonn@github.com/sagaratoonn/sample-node.git",
   "license": "MIT",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "serve": "^10.0.2"
   }
 }
