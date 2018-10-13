@@ -16,6 +16,7 @@
     "serve": "^10.0.2"
   },
   "jest": {
+      "coverageDirectory": "./test_public",
       "reporters": [
           "default",
                   ["./node_modules/jest-html-reporter", {
