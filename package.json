@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
-    "build": "jest --coverage --report-dir ./test_public"
+    "build": "jest --coverage"
   },
   "repository": "https://sagaratoonn@github.com/sagaratoonn/sample-node.git",
   "license": "MIT",
