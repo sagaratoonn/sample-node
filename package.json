@@ -9,10 +9,10 @@
   "repository": "https://sagaratoonn@github.com/sagaratoonn/sample-node.git",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "jest-html-reporter": "^2.4.2"
   },
   "dependencies": {
-    "jest-html-reporter": "^2.4.2",
     "serve": "^10.0.2"
   },
   "jest": {
