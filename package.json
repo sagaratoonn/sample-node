@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
+    "micro": "micro",
     "build": "jest --coverage"
   },
   "repository": "https://sagaratoonn@github.com/sagaratoonn/sample-node.git",
@@ -13,16 +14,20 @@
     "jest-html-reporter": "^2.4.2"
   },
   "dependencies": {
+    "micro": "^9.3.3",
     "serve": "^10.0.2"
   },
   "jest": {
-      "coverageDirectory": "./test_public",
-      "reporters": [
-          "default",
-                  ["./node_modules/jest-html-reporter", {
-                      "pageTitle": "Test Report",
-                      "outputPath": "./test_public/report.html"
-                  }]
+    "coverageDirectory": "./test_public",
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report",
+          "outputPath": "./test_public/report.html"
+        }
       ]
+    ]
   }
 }
